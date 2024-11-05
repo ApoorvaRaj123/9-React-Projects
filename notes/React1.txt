@@ -1,0 +1,18 @@
+There are ways to create a app using react.
+
+first is to use the basic old way which is "create react app" method.
+other is using a bundler like vite, as : "create vite@latest".
+
+Doing from the first way will take much time and give me many files.
+To read such application, I should read it's package.json which is like a index/directory for my application.
+
+It shows me the name and dependencies and the scripts that are available. It is a little bit opinionated as it gives me the testing library
+and never asked me that whether I want to use some other library or not. 
+here, react and react-dom are the two vital things where react is core react and in order to talk to the browser I have react-dom package.
+Similarly, to talk to the mobile app, I have "react native".
+
+This way of creating react app also includes the "react-scripts" which I will be learning later about.
+It also gave me "web-vitals" to check the performance of the application which it never asked me about if I want to even check it or not.
+So yeah, It is opinionated.
+
+It actually runs on the "scripts" where I will have few commands like "start", "build", "test", "eject"
